@@ -53,3 +53,11 @@ class FooChild(FooParent):
 if __name__ == '__main__':
     fooChild = FooChild()
     fooChild.bar('HelloWorld')
+    
+    
+# Output:
+#     Parent
+#     Child
+#     HelloWorld from Parent
+#     Child bar fuction
+#     I'm the parent.
